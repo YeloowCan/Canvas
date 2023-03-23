@@ -12,7 +12,7 @@
   </style>
 </head>
 <body>
-  <canvas id="canvas" width="150" height="150"></canvas>
+  <canvas id="canvas" width="500" height="500"></canvas>
 
   <script>
     /** @type {HTMLCanvasElement} */
@@ -37,6 +37,9 @@
         }
       }
     }
+    ctx.beginPath();
+    ctx.arc(300, 300, 50, 0, 1, true)
+    ctx.stroke()
   </script>
 </body>
 </html>
